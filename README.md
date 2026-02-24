@@ -75,10 +75,4 @@ A responsive hotel landing page built from scratch using pure HTML and CSS — n
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 *Built manually with HTML & CSS — no page builders, no site generators.*
