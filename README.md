@@ -66,7 +66,7 @@ A responsive hotel landing page built from scratch using pure HTML and CSS — n
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kullanici-adin/hotel-landing-page.git
+   git clone https://github.com/cpplover52/hotel-website.git
    ```
 
 2. Open `index.html` in your browser — no build step required.
