@@ -14,36 +14,39 @@
 </head>
 
 <body>
-    <section class="sec-main flex justify-center items-center text-white">
+    <section class="sec-main flex justify-center items-center text-white text-center">
         <div class="container flex justify-center items-center">
             <div class="sec-main-content flex flex-col justify-center items-center gap-y-8">
-                <h5 class="text-[1.4rem]" data-aos="fade" data-aos-duration="800">Welcome to</h5>
-                <h1 class="text-8xl" data-aos="fade-up" data-aos-duration="1000">Hotel Name</h1>
-                <h2 class="text-4xl" data-aos="fade-up" data-aos-duration="1000">Resert & Spa Hotel</h2>
+                <h5 class="md:text-xl text-[0.9rem] " data-aos="fade" data-aos-duration="800">Welcome to</h5>
+                <h1 class="md:text-8xl text-6xl" data-aos="fade-up" data-aos-duration="1000">Hotel Name</h1>
+                <h2 class="md:text-4xl text-2xl" data-aos="fade-up" data-aos-duration="1000">Resert & Spa Hotel</h2>
                 <button class="main-btn" data-aos="fade" data-aos-duration="1200">Learn More</button>
             </div>
         </div>
     </section>
     <section class="sec-welcome bg-[#f1efea] flex justify-center items-center text-[#5e4336]">
         <div class="container flex justify-center items-center flex-col gap-y-16">
-            <div class="content-part flex justify-between items-center">
-                <div class="content-part-content flex-1/2 flex justify-start items-center flex-col gap-y-12">
-                    <h2 class="text-6xl font-bold"  data-aos="fade-up" data-aos-duration="1000">Welcome to your luxurious home away from home</h2>
-                    <p>Write a paragraph that talks about your brand or property here. Convince your prospective clients
+            <div class="content-part flex justify-between items-center md:flex-row flex-col gap-y-4 ">
+                <div class="content-part-content flex-1/2 flex justify-start items-center flex-col gap-y-12 md:text-left text-center">
+                    <h2 class="lg:text-6xl text-4xl font-bold"  data-aos="fade-up" data-aos-duration="2000">Welcome to your luxurious home away from home</h2>
+                    <p class="lg:text-[1rem] text-sm">Write a paragraph that talks about your brand or property here. Convince your prospective clients
                         to choose you and your offerings by highlighting the qualities that set you apart from the
                         competition. Your audience is already on your website, so push a little bit harder to seal the
                         deal!</p>
                 </div>
-                <div class="content-part-visual flex-1/2 flex items-center justify-end">
-                    <div class="content-part-visual-image" data-aos="fade" data-aos-duration="1500">
+                <div class="content-part-visual flex-1/2 flex items-center justify-end lg:w-100 lg:h-118 w-60 h-72">
+                    <div class="content-part-visual-image " data-aos="fade" data-aos-duration="1500">
                         
                     </div>
                 </div>
             </div>
             <div class="video-part flex justify-center items-center">
                 <div
-                    class="video-container flex justify-center items-center border-2 border-solid border-[#5e4336] p-8!">
-                    <video src="videos/sec-welcome-video.mp4" autoplay muted loop></video>
+                    class="video-container flex justify-center items-center border-2 border-solid border-[#5e4336] md:p-8! p-2!">
+                    <video id="welcome-video" muted loop playsinline preload="none">
+                        <source data-src="videos/welcome-section-video.mp4" type="video/mp4">
+                    </video>
+                    
                 </div>
 
             </div>
@@ -52,55 +55,55 @@
     <section class="sec-accommodations bg-[#ebe7e1] flex justify-center items-center text-[#5e4336]">
         <div class="container flex justify-center items-center flex-col gap-y-12">
             <div class="sec-acc-header">
-                <h1 class="text-6xl" data-aos="fade-down" data-aos-duration="1000">Accommodations</h1>
+                <h1 class="lg:text-6xl md:text-5xl text-3xl" data-aos="fade-down" data-aos-duration="2000">Accommodations</h1>
             </div>
-            <div class="sec-acc-content flex justify-between items-center gap-x-4">
-                <div class="room-box flex flex-col justify-between gap-y-2">
-                    <div class="room-box-visual">
-                        <div class="room-box-visual-image luxe-room h-[18rem] w-[24rem]"></div>
+            <div class="sec-acc-content flex justify-center items-center gap-x-4 md:flex-row flex-col gap-y-4">
+                <div class="room-box flex flex-col justify-between gap-y-2 lg:h-116 lg:w-100 h-80 w-72">
+                    <div class="room-box-visual w-full h-full">
+                        <div class="room-box-visual-image luxe-room "></div>
                     </div>
                     <div
-                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start min-h-40 p-4!">
+                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start md:min-h-40 gap-y-4 p-4!">
                         <div>
-                            <h5>4 adults | 2 children below 7</h5>
+                            <h5 class="md:text-[1rem] text-[0.85rem]">4 adults | 2 children below 7</h5>
                         </div>
                         <div>
-                            <h3 class="text-2xl">De Luxe Room</h3>
-                            <h6>from $189 a night</h6>
+                            <h3 class="md:text-2xl text-xl">De Luxe Room</h3>
+                            <h6 class="md:text-[1rem] text-[0.85rem]">from $189 a night</h6>
                         </div>
                     </div>
                 </div>
 
-                <div class="room-box flex flex-col justify-between gap-y-2">
-                    <div class="room-box-visual">
-                        <div class="room-box-visual-image luxe-sea-view-room h-[18rem] w-[24rem]"></div>
+                <div class="room-box flex flex-col justify-between gap-y-2 lg:h-116 lg:w-100 h-80 w-72">
+                    <div class="room-box-visual w-full h-full">
+                        <div class="room-box-visual-image luxe-sea-view-room"></div>
                     </div>
                     <div
-                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start min-h-40 p-4!">
+                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start md:min-h-40 gap-y-4 p-4!">
                         <div>
-                            <h5>2 adults | 2 children below 7</h5>
+                            <h5 class="md:text-[1rem] text-[0.85rem]">2 adults | 2 children below 7</h5>
                         </div>
                         <div>
-                            <h3 class="text-2xl">De Luxe Sea View</h3>
-                            <h6>from $209 a night</h6>
+                            <h3 class="md:text-2xl text-xl">De Luxe Sea View</h3>
+                            <h6 class="md:text-[1rem] text-[0.85rem]">from $209 a night</h6>
                         </div>
 
                     </div>
 
                 </div>
 
-                <div class="room-box flex flex-col justify-between gap-y-2">
-                    <div class="room-box-visual">
-                        <div class="room-box-visual-image family-room h-[18rem] w-[24rem]"></div>
+                <div class="room-box flex flex-col justify-between gap-y-2 lg:h-116 lg:w-100 h-80 w-72">
+                    <div class="room-box-visual w-full h-full">
+                        <div class="room-box-visual-image family-room "></div>
                     </div>
                     <div
-                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start min-h-40 p-4!">
+                        class="room-box-content border border-solid border-[#997e1b] flex flex-col justify-between items-start md:min-h-40 gap-y-4 p-4!">
                         <div>
-                            <h5>4 adults</h5>
+                            <h5 class="md:text-[1rem] text-[0.85rem]">4 adults</h5>
                         </div>
                         <div>
-                            <h3 class="text-2xl">The Wellhall Family Suite</h3>
-                            <h6>from $399 a night</h6>
+                            <h3 class="md:text-2xl text-xl">The Wellhall Family Suite</h3>
+                            <h6 class="md:text-[1rem] text-[0.85rem]">from $399 a night</h6>
                         </div>
                     </div>
                 </div>
@@ -108,18 +111,18 @@
         </div>
     </section>
     <section class="sec-family-suite bg-[#f1efea] flex justify-center items-start text-[#5e4336]">
-        <div class="container flex justify-center items-center flex-col gap-y-16">
-            <div class="sec-family-first-part flex justify-between items-center w-full h-120">
-                <div class="sec-family-first-part-content h-full flex-1/2 ">
-                    <div class="wrapper w-4/5 h-full flex justify-between items-start flex-col">
-                        <h1 class="text-6xl"  data-aos="fade-up" data-aos-duration="1000">The Family Suite</h1>
-                        <h6>Showcase the best your property has to offer by highlighting one of your accommodations. Add
-                            a flattering photo, then describe the room's best feature.</h6>
+        <div class="container flex justify-center items-center flex-col gap-y-8">
+            <div class="sec-family-first-part flex md:justify-between justify-start items-center w-full md:h-120 h-140 md:flex-row flex-col md:text-start text-center gap-y-8">
+                <div class="sec-family-first-part-content md:h-full md:flex-1/2 ">
+                    <div class="wrapper md:w-4/5 w-full h-full flex justify-between md:items-start items-center flex-col gap-y-4">
+                        <h1 class="lg:text-6xl md:text-5xl text-3xl"  data-aos="fade-up" data-aos-duration="2000">The Family Suite</h1>
+                        <p class="lg:text-[1rem] md:text-[0.9rem] text-[0.8rem]">Showcase the best your property has to offer by highlighting one of your accommodations. Add
+                            a flattering photo, then describe the room's best feature.</p>
                     </div>
                 </div>
                 <div
-                    class="sec-family-first-part-visual h-full flex-1/2 flex flex-col justify-between items-center gap-y-8">
-                    <div class="sec-family-first-part-image h-[28rem] w-[40rem]">
+                    class="sec-family-first-part-visual md:flex-1/2 flex flex-col justify-between items-center gap-y-8 md:h-full lg:w-160 md:w-120 w-3/4">
+                    <div class="sec-family-first-part-image md:h-full h-60 w-full">
 
                     </div>
                     <div
@@ -129,17 +132,17 @@
                     </div>
                 </div>
             </div>
-            <div class="sec-family-seconds-part flex justify-between items-center w-full gap-x-8">
-                <div class="flex-2/5 flex flex-col justify-between items-start gap-y-4">
-                    <div class="dining-area-image h-120 w-120"></div>
+            <div class="sec-family-seconds-part flex md:flex-row flex-col gap-y-8 md:justify-between justify-center items-center gap-x-8 w-full">
+                <div class="md:flex-2/5 flex flex-col md:justify-between justify-center md:items-start items-center gap-y-4 md:w-full w-3/4 ">
+                    <div class="dining-area-image md:h-120 h-100 w-full"></div>
                     <div
                         class="p-4! flex justify-center items-center text-center border-2 border-solid border-[#5e4336] italic w-full">
                         An intriguing caption that describes the room goes here. Use a flattering photo, then describe
                         away!
                     </div>
                 </div>
-                <div class="flex-3/5 flex flex-col justify-between items-end gap-y-4">
-                    <div class="tv-room-image h-120 w-full"></div>
+                <div class="md:flex-3/5 flex flex-col md:justify-between justify-center md:items-end items-center gap-y-4 md:w-full w-3/4">
+                    <div class="tv-room-image md:h-120 h-60 w-full"></div>
                     <div
                         class="p-4! flex justify-center items-center text-center border-2 border-solid border-[#5e4336] italic w-full">
                         An intriguing caption that describes the room goes here. Use a flattering photo, then describe
@@ -150,11 +153,11 @@
         </div>
     </section>
     <section class="sec-promos-and-offers bg-[#ebe7e1] flex justify-center items-center text-[#5e4336]">
-        <div class="container flex justify-center items-center gap-y-8 flex-col">
+        <div class="container flex justify-between items-center gap-y-8 flex-col">
             <div class="sec-promos-and-offers-header">
-                <h2 class="text-5xl" data-aos="fade-down" data-aos-duration="1000">Promos and Offers</h2>
+                <h2 class="lg:text-6xl md:text-5xl text-3xl" data-aos="fade-down" data-aos-duration="2000">Promos and Offers</h2>
             </div>
-            <div class="sec-promos-and-offers-content flex justify-center items-center gap-x-4">
+            <div class="sec-promos-and-offers-content flex md:flex-row flex-col justify-center items-center gap-4">
                 <div class="promo-box flex flex-col justify-between gap-y-2">
                     <div class="promo-box-visual">
                         <div class="promo-box-visual-image h-[18rem] w-full"
@@ -194,9 +197,9 @@
             </div>
         </div>
     </section>
-    <footer class="footer flex items-center justify-center bg-[#623e2a] py-8 min-h-96 text-white">
-        <div class="container flex items-center">
-            <div class="footer-content flex justify-between items-center gap-x-8 w-full">
+    <footer class="footer flex items-center justify-center bg-[#623e2a] md:h-112 h-188 py-8 text-white">
+        <div class="container flex items-center justify-center">
+            <div class="footer-content flex md:flex-row flex-col gap-y-8 justify-between items-center gap-x-8 w-full">
                 <div
                     class="footer-box px-6! py-4! border-2 border-solid border-white flex flex-col justify-start items-start gap-y-4 w-80 h-52">
                     <div class="footer-box-header flex items-center justify-center">
@@ -257,6 +260,22 @@ Any City ST 12345</span>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
          AOS.init();
+
+         const video = document.getElementById('welcome-video');
+const source = video.querySelector('source');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            source.src = source.dataset.src;
+            video.load();
+            video.play();
+            observer.unobserve(video);
+        }
+    });
+}, { threshold: 0.1 });
+
+observer.observe(video);
     </script>
 </body>
 

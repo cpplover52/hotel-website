@@ -12,7 +12,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 .container{
     width: 80%;
@@ -22,9 +22,9 @@ section{
 .sec-main{
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./images/main-sec-bg.jpg");
     background-position-x: center;
-    background-position-y: bottom;
+    background-position-y: center;
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
 }
 .main-btn{
     padding: 0.8rem 0.2rem;
@@ -43,14 +43,14 @@ section{
     background: url("images/sec-welcome-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 400px;
-    height: 500px;
+    background-size: cover;
+    width: inherit;
+    height: inherit;
 }
 .room-box-visual-image{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+
+    width: inherit;
+    height: inherit;
 }
 .promo-box-visual-image{
     background-position: center !important;
@@ -61,25 +61,25 @@ section{
     background: url("images/de-luxe-room.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
 }
 .luxe-sea-view-room{
     background: url("images/de-luxe-sea-view.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
 }
 .family-room{
     background: url("images/family-room.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .sec-family-first-part-image{
     background: url("images/family-room.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .dining-area-image{
     background: url("images/s.jpg");
